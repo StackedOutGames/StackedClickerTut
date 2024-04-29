@@ -1,4 +1,4 @@
-# create class for the Main scene Node "Main"
+# create class for the Main scene Node "Main" test
 class_name ClickerGUI
 extends Control
 
