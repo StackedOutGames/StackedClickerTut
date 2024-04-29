@@ -4,7 +4,7 @@
 
 [node name="Main" type="Node"]
 
-[node name="ClickerGUI" type="Control" parent="." node_paths=PackedStringArray("label")]
+[node name="ClickerGUI" type="Control" parent="." node_paths=PackedStringArray("label") groups=["click_to_auto", "click_to_gain"]]
 layout_mode = 3
 anchors_preset = 0
 offset_right = 1155.0
