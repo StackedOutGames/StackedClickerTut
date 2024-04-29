@@ -4,7 +4,7 @@
 
 [node name="Main" type="Node"]
 
-[node name="ClickerGUI" type="Control" parent="." node_paths=PackedStringArray("label") groups=["click_to_auto", "click_to_gain"]]
+[node name="ClickerGUI" type="Control" parent="." node_paths=PackedStringArray("label")]
 layout_mode = 3
 anchors_preset = 0
 offset_right = 1155.0
@@ -26,7 +26,7 @@ text = "Roaches Poached: <item_amt_roach>"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="Button" type="Button" parent="ClickerGUI"]
+[node name="Button" type="Button" parent="ClickerGUI" groups=["click_to_manual"]]
 texture_filter = 1
 custom_minimum_size = Vector2(320, 80)
 layout_mode = 1
